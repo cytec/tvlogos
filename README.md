@@ -16,6 +16,7 @@ conversion with imagemagick:
 
 ### Example:
 Given you want to add the logo from TNT Serie:
+
 1. Download the image from https://de.wikipedia.org/wiki/TNT_Serie
 2. convert it `convert TNT_Serie_Logo_2016.png -resize 236x236 -gravity center -background transparent -extent 236x236 TNT_Serie_Logo_2016.png`
 3. rename it to `tnt-serie.png`
